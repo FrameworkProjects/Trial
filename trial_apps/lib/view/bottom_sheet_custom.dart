@@ -17,7 +17,7 @@ Widget myBottomSheet(double width) {
     child: Column(
       children: [
         Text(
-          "A\A",
+          "A",
           style: GoogleFonts.quicksand(fontSize: 16),
         ),
       ],

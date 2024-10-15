@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:trial_apps/utils/media_qurey_util.dart';
+import 'package:trial_apps/view/profile_full_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -45,17 +47,24 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Container(
-                              height:
-                                  MediaQueryUtil.screenHeight(context) * 0.073,
-                              width:
-                                  MediaQueryUtil.screenWidth(context) * 0.154,
-                              margin: const EdgeInsets.only(right: 10),
-                              decoration: const BoxDecoration(
-                                shape: BoxShape.circle,
-                                color: Colors.white,
+                            GestureDetector(
+                              onTap: () {
+                                Get.to(() => const ProfileFullView());
+                              },
+                              child: Container(
+                                height: MediaQueryUtil.screenHeight(context) *
+                                    0.073,
+                                width:
+                                    MediaQueryUtil.screenWidth(context) * 0.154,
+                                margin: const EdgeInsets.only(right: 10),
+                                decoration: const BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.white,
+                                ),
+                                child: Hero(
+                                    tag: idx,
+                                    child: Image.asset("assets/icon.png")),
                               ),
-                              child: Image.asset("assets/icon.png"),
                             ),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
