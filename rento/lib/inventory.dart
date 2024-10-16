@@ -9,7 +9,7 @@ class InventoryItem {
       required this.cycletype});
 }
 
-List Inventory = [
+List inventory = [
   InventoryItem(
       cycleImage: "assets/images/inventory/Bicycle - 1280x811.png",
       cycletitle: "THE\nROAD\nBIKES",

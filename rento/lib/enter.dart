@@ -113,7 +113,7 @@ class _EnterState extends State<Enter> {
                   ),
                 ),
               ),
-              const Spacer()
+        
             ],
           )
         ],

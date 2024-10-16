@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
         top: 30,
         right: 10,
         child: Text(
-          Inventory[index].cycletitle,
+          inventory[index].cycletitle,
           style: GoogleFonts.barlow(
             color: Colors.black,
             fontSize: 24,
@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
         top: 30,
         left: 10,
         child: Text(
-          Inventory[index].cycletitle,
+          inventory[index].cycletitle,
           style: GoogleFonts.barlow(
             color: Colors.black,
             fontSize: 24,
@@ -136,7 +136,7 @@ class _HomePageState extends State<HomePage> {
         top: 10,
         left: 100,
         child: Image.asset(
-          Inventory[i].cycleImage,
+          inventory[i].cycleImage,
           width: 320,
           height: 168,
           // You might need to adjust fit based on your SVG aspect ratio
@@ -148,7 +148,7 @@ class _HomePageState extends State<HomePage> {
         top: 10,
         left: 10,
         child: Image.asset(
-          Inventory[i].cycleImage,
+          inventory[i].cycleImage,
           width: 295,
           height: 168,
           // You might need to adjust fit based on your SVG aspect ratio
@@ -261,7 +261,7 @@ class _HomePageState extends State<HomePage> {
           // Wrapped ListView.builder with a SizedBox to provide finite height
           Expanded(
             child: ListView.builder(
-              itemCount: Inventory.length,
+              itemCount: inventory.length,
               itemBuilder: (context, index) {
                 return Stack(
                   children: [

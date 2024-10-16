@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rento/splash.dart';
+import 'package:rento/views/splash.dart';
 
 void main() {
   runApp(const MainApp());

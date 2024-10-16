@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 //import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:rento/cart.dart';
-import 'package:rento/cartModelclass.dart';
+import 'package:rento/models/cartModelclass.dart';
 
 import 'cycleDetail.dart';
 

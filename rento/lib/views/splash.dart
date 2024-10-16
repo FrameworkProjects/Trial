@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:google_fonts/google_fonts.dart';
-import 'next.dart';
+import '../next.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});

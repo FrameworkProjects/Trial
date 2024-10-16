@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:rento/cartModelclass.dart'; // Assuming your CartItem class is in this file
+import 'package:rento/models/cartModelclass.dart'; // Assuming your CartItem class is in this file
 
 class Cart extends StatefulWidget {
   const Cart({super.key});
