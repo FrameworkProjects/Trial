@@ -43,7 +43,7 @@ class _NextState extends State<Next> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "BE",
+                  "BE ",
                   style: GoogleFonts.barlowCondensed(
                     fontWeight: FontWeight.w500,
                     fontSize: 56,
