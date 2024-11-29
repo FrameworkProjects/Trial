@@ -52,7 +52,7 @@ class _EnterState extends State<Enter> {
           ),
           Row(
             children: [
-              
+              const Spacer(),
               SizedBox(
                 width: 160,
                 height: 60,
